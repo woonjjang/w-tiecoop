@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*common*/
+ul{list-style:none;padding-left:0}
+/*header*/
+header{border-bottom:1px solid #ddd}
+/*footer*/
+footer{background-color:#999;padding:3rem 0}
+footer ul.sns{list-style-type:none;margin-bottom:0}
+footer ul.sns li{float:left;margin-right:1rem}
+footer ul.sns li a{;color:#fff;font-size:1.25rem}
+footer .text-center{font-weight:bold;font-size:2rem;color:#fff}
+footer .copyright{font-size:0.875rem;color:#444;text-align:right;color:#fff}
+
+/*서브 프레임*/
+.fc02 aside{padding:2rem 1.5rem 4rem 0;border-right:1px solid #ddd}
+.fc02 aside h2{background-color:var(--bs-info);color:#fff;padding:1rem;border-radius:5px;margin-bottom:1rem}
+.fc02 .contentA{padding:2rem 0 4rem 1.5rem}
+.fc02 .breadcrumb{margin-bottom:3rem}
+.fc02_01 h1{margin-bottom:2rem;font-weight:bold}
+.fc02_02{padding-top:0.6rem}
+.fc02_02 .navA{overflow:hidden;margin-bottom:2rem}
+.fc02_02 .navA .ng03{float:left;margin-top:0.5rem}
+.fc02_02 .navA .cf01{float:right}
+.fc02_02 .navA .cf01 form{display:inline-block}
+.fc02_02 .navA .cf01 a{display:inline-block}
+.fc02_02 .pagingA{position:relative}
+.fc02_02 .pagingA .ng04{position:absolute;left:0;top:0;width:6rem}
+.fc02_02 .pagingA .ng05{position:absolute;right:0;top:0}
+
+/*메인메뉴*/
+header .navbar{padding:2rem 0}
+header .navbar .navbar-brand{margin-right:5rem;font-size:1.8rem}
+header .navbar .navbar-nav .nav-link{padding:0 3rem;font-size:1.25rem}
+/*검색창*/
+.cf01 form{position:relative}
+.cf01 form:before{content:"\e97a";position:absolute;left:0.3rem;top:0.3rem;font-family:xeicon;color:#999;font-size:1.125rem}
+.cf01 input.form-control{width:12rem;border-radius:1.1rem;padding-left:1.5rem}
+.cf01 a{font-size:2rem;vertical-align:middle;margin-left:0.3rem}
+/*카드-비디오*/
+.cv01{background-color:#eee;padding:1.5rem;border-radius:1rem}
+.cv01 .thumb{position:relative;width:100%;height:0;padding-bottom:56.25%;}
+.cv01 .thumb iframe{position:absolute; width:100%; height:100%;}
+/*메인배너*/
+.ib01 .carousel-item .caption{position:absolute;top:50%;left:10%;right:0;transform: translate(0, -50%);}
+.ib01 .carousel-item .caption h5{font-size:3rem;color:#fff}
+.ib01 .carousel-item .caption p{font-size:1.125rem;color:#fff}
+/*FAQ*/
+.lc01 h2.mb-0{position:relative}
+.lc01 h2.mb-0 button{color:#333;text-decoration:none}
+.lc01 h2.mb-0 button:hover{color:var(--bs-blue)}
+.lc01 h2.mb-0 button:before{content:"\e944";position:absolute;right:0;font-family:xeicon}
+.lc01 h2.mb-0 button.collapsed:before{content:"\e941"}
+/*아이템 리스트*/
+.lc02 h2{margin-bottom:2rem}
+.lc02 ul li a{display:block;position:relative}
+.lc02 ul li a .thumb{display:block;width:100%;height:auto;overflow:hidden;position:relative}
+.lc02 ul li a .thumb:before{content: "";display: block;padding-top:70%}
+.lc02 ul li a .thumb img{width:100%;min-height:auto;position:absolute;top:0;right:0;bottom:0;left:0}
+.lc02 ul li a .tit{position:absolute;left:0;bottom:0;width:100%;background-color:rgba(0,0,0,0.8);color:#fff;text-align:center;padding:0.3rem;display:block;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis}
+.lc02 ul li a:hover .tit{height:100%}
+.lc02 ul li a:hover .tit b{position:absolute;top:50%;left:0;width:100%;transform:translate(0,-50%)}
+/*테이블리스트*/
+.lc03{margin-bottom:2rem}
+/*메타데이터*/
+.met01{margin-bottom:3rem}
+.met01 h2{margin-bottom:2rem}
+.met01 dl dd{margin-bottom:0}
+.met01 dl.link .btn{padding:0}
+
+/*사이드메뉴*/
+.ng01{padding-left:0;overflow-x:scroll;padding-bottom:1.5rem}
+.ng01 li.expanded ul{padding-left:0;margin-left:0}
+.ng01 li.expanded.opened > ul{display:block}
+.ng01 li{list-style-type:none;position:relative;padding-left:1.25rem}
+.ng01 li:before{content:"\ea94";position:absolute;left:0;font-family:xeicon}
+.ng01 li.opened:before{content:"\ea80"}
+.ng01 li.expanded:before{content:"\eaa1";position:absolute;left:0;font-family:xeicon}
+.ng01 li.expanded.opened:before{content:"\eaa8"}
+.ng01 li a{white-space:nowrap; word-break:keep-all;font-size:1.125rem;text-decoration:none;color:var(--bs-secondary)}
+.ng01 > li > a{color:var(--bs-dark);font-weight:bold}
+.ng01 li.opened:not(.expanded) > a{color:var(--bs-primary)}
+.ng01 li.opened:not(.expanded):before{color:var(--bs-primary)}
+/*분류메뉴*/
+.ng03 li{margin-right:1.25rem}
+.ng03 li a{color:var(--bs-secondary);padding:0;font-size:1.125rem}
+.ng03 li a.nav-link.active{color:var(--bs-primary);background:none;border-bottom:4px solid;border-radius:0;font-weight:bold}
+.ng03 li a:hover{color:var(--bs-primary)}
+/*이전다음 버튼*/
+.ng05 button i{}
+/*메인 점보트론*/
+.tc01{background-color:#eee}
+.tc01 p{color:#666;margin-bottom:0}
+.tc01 h2{margin-bottom:1.5rem}
+
+/*아이템 상세*/
+.tc02{margin-bottom:3rem;background-color:#eee;padding:2rem;border-radius:5px}
+.tc02 .clip .thumb{overflow:hidden;height:auto;position:relative}
+.tc02 .clip .thumb:before{content: "";display: block;padding-top:72%}
+.tc02 .clip .thumb img{width:100%;min-height:auto;position:absolute;top:0;right:0;bottom:0;left:0}
+.tc02 .caption p{margin-bottom:0}
+/*타이틀*/
+.th01{overflow:hidden;margin-bottom:2rem}
+.th01 h1{float:left;width:90%}
+.th01 a{float:right;width:3rem;height:3rem;background-color:var(--bs-success);color:#fff;border-radius:1.5rem;text-align:center;line-height:3rem;font-size:1.5rem}
+.th01 a:hover{background-color:#000}
+
+
+
+
+
+
+

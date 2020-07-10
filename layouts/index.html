@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Bootstrap 5.0.0-alpha1 Durumi aa CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"/>
+    {{ $css := "css/aa.css" | absURL }}
+    <link rel="stylesheet" href="{{ $css }}"/>
+
+    <title>{{ .Title }}</title>
+    <description>{{ .Description }}</description>
+  </head>  
+
+   <body>
+      <div id="main_wrap">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">{{ .Title }}</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">홈</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">블로그</a>
+                  </li>
+                </ul>
+                <a class="btn btn-primary" href="#" role="button">협력기관</a>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- 컨텐츠 영역 -->
+        <div id="main-content" class="fc01">
+          <!-- 메인 슬라이더 -->
+          <div id="main_slider" class="ib01 carousel slide mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#main_slider" data-slide-to="0" class="active"></li>
+              <li data-target="#main_slider" data-slide-to="1"></li>
+              <li data-target="#main_slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/wtie_banner_01.jpg" class="d-block w-100" alt=""/>
+                <div class="container caption">
+                  <div class="col-6">
+                    <h5>{{ .Title }}</h5>
+                    <p>더블유타이(W-tie)협동조합은 사회적 가치를 생산하는 모든 사람이 일과 생활의 균형감각을 유지하고 자기 결정원을 회복할 수 있도록 일생활균형 실천의 일상화.생활화를 위해 회원들의 전문성을 살려 삶의 평범함을 모델로 민주적인 조직문화 변화 솔루션 개발과 교육.문화 운동에 전문화와 일거리 등 조합원의 지속가능한 자립을 돕는 기회 나눔을 시도합니다.</p>
+                    <a class="btn btn-secondary" href="#" role="button">자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/wtie_banner_02.jpg" class="d-block w-100" alt=""/>
+                <div class="container caption">
+                  <div class="col-6">
+                    <h5>{{ .Title }}</h5>
+                    <p>더블유타이(W-tie)협동조합은 사회적 가치를 생산하는 모든 사람이 일과 생활의 균형감각을 유지하고 자기 결정원을 회복할 수 있도록 일생활균형 실천의 일상화.생활화를 위해 회원들의 전문성을 살려 삶의 평범함을 모델로 민주적인 조직문화 변화 솔루션 개발과 교육.문화 운동에 전문화와 일거리 등 조합원의 지속가능한 자립을 돕는 기회 나눔을 시도합니다.</p>
+                    <a class="btn btn-secondary" href="#" role="button">자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">이전</span>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">다음</span>
+            </a>
+          </div>        
+          <!-- //메인 슬라이더 -->
+          <!-- Featured Items -->
+          <div class="container mb-5">
+            <div class="th01 mb-5">
+              <h2 class="text-center">Featured Items</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales </p>
+            </div>
+
+            <div class="cv01 mb-3">
+              <div class="row">
+                <div class="clip col-8">
+                  <div class="thumb">
+                    <iframe src="https://www.youtube.com/embed/f7_cnclgSyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="caption col">
+                  <h4>Video item Title</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales </p>
+                </div>
+              </div>
+            </div>
+
+           <!--  <div class="cv01">
+              <div class="row">
+                <div class="clip col-8">
+                  <div class="thumb">
+                    <iframe src="https://www.youtube.com/embed/f7_cnclgSyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="caption col">
+                  <h4>Video item Title</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales </p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <!-- //Featured Items -->
+          <!-- FAQ -->
+          <div class="container mb-5">
+            <div class="th01 mb-5">
+              <h2 class="text-center">협동조합에 대해 궁금한 부분 | FAQ</h2>
+            </div>
+            <div class="lc01 accordion" id="accordionFAQ">
+              <div class="card">
+                <div class="card-header" id="heading1">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                      Collapsible Group Item #1
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionFAQ">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading2">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      Collapsible Group Item #2
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionFAQ">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading3">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      Collapsible Group Item #3
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionFAQ">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- //FAQ -->
+          <!-- last info -->
+          <div class="tc01 p-5 text-center">
+            <h2>{{ .Title }}은 현재 아래의 사업과 연구를 진행하고 있습니다. </h2>
+            <p>Enter your email address to take part in our online course today.<br/>
+            Enter your email address to take part in our online course today.<br/>
+            Enter your email address to take part in our online course today</p>
+          </div>
+          <!-- last info -->
+
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="row align-items-center">
+              <ul class="sns col">
+                <li><a href="#" title="트위터"><i class="xi-twitter"></i></a></li>
+                <li><a href="#" title="인스타그램"><i class="xi-instagram"></i></a></li>
+                <li><a href="#" title="페이스북"><i class="xi-facebook-official"></i></a></li>
+              </ul>
+              <div class="col text-center">{{ .Title }}</div>
+              <div class="col copyright">© 2020  W-tie Cooperatives</div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <!-- Optional JavaScript -->
+      <!-- Popper.js first, then Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="../js/aa.js"></script>
+    </body>
+</html>
