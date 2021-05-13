@@ -1,0 +1,279 @@
+########### Partial/Basic에 노출되는 사용자 데이터를 편집합니다. ###########
+
+###################### user/org information #####################
+user:
+  title : 더블유타이협동조합
+  tagLine : 더 나은 기회를 만드는 생산자들의 조합 더블유타이협동조합
+  tel : 02-0000-0000
+  fax : 02-0000-0000
+  email : hello@w-tiecoop.co.kr
+  representative: 김영주
+  location : Somewhere in Seoul
+  footer :
+    대표전화 : 02-0000-0000
+    팩스 : 02-0000-0000
+    주소 : Somewhere in Seoul
+    이메일 : hello@w-tiecoop.co.kr
+    대표자 : 김영주
+    year : "2021"
+    github : https://w-tiecoop.co.kr/w-tiecoop_introductions.pdf
+    url : https://w-tiecoop.co.kr/w-tiecoop_introductions.pdf
+    caption:  협동조합 소개서 보기
+    fb : http://facebook.com
+    tw : http://twitter.com
+    instagram : http://instagram.com
+    linkedin : http://linkedin.com
+
+######## Partials/app에 노출되는 사용자 데이터를 편집합니다. ########
+
+############################ simple-browse.html ##########################
+browseItems:
+  category : 프로젝트
+  title : 프로젝트 목록
+  enable : true
+  url : https://docs.google.com/spreadsheets/d/e/2PACX-1vRHcD8xBpgJwbVpcQj23lzwmjMH98kMRIIOwLU0oRefC0dZh6Fh1RLE6QdEbM3xrFla9gJQta59DXVv/pub
+  content : 진행된 각 사업 목록을 노출합니다.
+######## Partials/Marketing에 노출되는 사용자 데이터를 편집합니다. ########
+
+########################## slider_alpine.html(slider.json) ##########################
+
+########################## item-image-masonry.html ##########################
+images:
+  - src: 'https://images.unsplash.com/photo-1591030617255-43892ec644bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
+  - src: 'https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80'
+    alt: 'Image of Black Lives Matter protest in London'
+    caption: 'Black Lives Matter - London June 2020'
+  - src: 'https://images.unsplash.com/photo-1590931511555-83151d16a146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80'
+    alt: 'Image of Black Lives Matter protest in Charlotte'
+    caption: 'George Floyd protests in Uptown Charlotte'
+  - src: 'https://images.unsplash.com/photo-1591030617255-43892ec644bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'    
+  - src: 'https://images.unsplash.com/photo-1542683305-710078a12f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'  
+  - src: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
+  - src: 'https://images.unsplash.com/photo-1544333323-ec9ed3218dd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'        
+  - src: 'https://images.unsplash.com/photo-1591030617255-43892ec644bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
+  - src: 'https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80'
+    alt: 'Image of Black Lives Matter protest in London'
+    caption: 'Black Lives Matter - London June 2020'
+  - src: 'https://images.unsplash.com/photo-1591030617255-43892ec644bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'    
+  - src: 'https://images.unsplash.com/photo-1542683305-710078a12f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'  
+  - src: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
+  - src: 'https://images.unsplash.com/photo-1544333323-ec9ed3218dd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
+    alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
+    caption: 'A protester in Washington DC holds a sign featuring George Floyd.'        
+  
+
+############################ featured-items ##########################
+featuredItems:
+  category : 조합내 조직
+  title : 조합내에 포함되어 있는 연구, 개발, 강연, 프로그램기획, 공연, 운영 조직 소개
+  enable : true
+  content : 연구,개발,강연,프로그램기획,공연,운영등 자기 전문성을 가진 조직들이 모여 협업의 효과를 극대화하고 좀 더 합리적인 방식으로 일하기 위해 만들어진 생산자 협동조합입니다. 느슨하게 연결되어 각 조합원이 원하는 일하기의 방식을 유지하면서도 개인들이 고립되지 않고 일할 수 있는 구조를 만듭니다.
+  listItem:
+    - category : 연구
+      title : 일생활균형연구소
+      description : 일생활균형연구소는 조직정의organization justice 관점에서 다양한 일 하기 방식과 생활방식에 맞는 대안 조직문화를 제안하고 실험하는 액션리서치 전문기관입니다. 연구소에서는 일생활균형 실천의 일상화- 생활화를 위한 다양한 교육, 문화 운동을 진행하고 있으며, 일하는 사람들 개인이 통합적으로 자신의 일하기 방식을 상상하고 실천할 수 있는 솔루션을 개발합니다.
+      component : https://images.pexels.com/photos/6230964/pexels-photo-6230964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 김영주, 안선영
+      date: 2020-11-23
+      identifier: 01
+      author: 김영주, 안선영
+      creator: 일생활균형, 워라밸, 액션리서치, wlb-lab.org
+      url : http://wlb-lab.org
+
+    - category : 기획, 운영, 프로그램 개발
+      title : RED SILVER BRONZE
+      description : RED SILVER BRONZE(이하 RSB)는 새로운 세대와 가치관이 등장할 수 있는 생태계를 만들기 위해 의제를 발굴하고 정책을 제안하는 1인 기업입니다. 연구, 정책 제안, 커뮤니티 운영, 공론장 설계 등의 다양한 활동을 통해 새로운 세대가 안전망을 확보하고, 사회를 이끌어나가는 주체가 될 수 있도록 합니다.
+      component : https://images.pexels.com/photos/6101971/pexels-photo-6101971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 조수빈
+      date: 2020-11-23
+      identifier: 02
+      author: 조수빈
+      creator: 정책기획,밀레니얼세대,공간운영,프로그램개발
+      url :     
+
+    - category : category
+      title : 다양성임팩트연구소
+      description : 다양성임팩트연구소는 신진 젠더정책 연구자들이 새로운 젠더 관련 이슈에 대한 국내외 변화의 트렌드와 쟁점을 연구하고 정책 솔루션을 마련하는 것을 목적으로 설립한 민간 정책연구소입니다. 우리 삶과 밀접한 관련이 있는 사회정책들을 젠더 관점에서 다루며, 실질적인 변화를 끌어낼 수 있는 현장 기반의 연구를 수행합니다.
+      component : https://images.pexels.com/photos/3518091/pexels-photo-3518091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 김현아
+      date: 2020-11-23
+      identifier: 03
+      author: 김현아
+      creator: 젠더정책, 미래의제, 현장기반연구
+      url : 
+
+    - category : category
+      title : I.M.I
+      description : I.M.I는 미래를 직접 디자인하려는 이노베이터들을 발굴하고 성장을 돕는 조직입니다. “모두를 위한 포용적인 사회”를 만들고자 하는 이노베이터들이 네트워크를 형성하고 세상을 위한 일을 함께 할 수 있도록 하는 플랫폼이 되고 있습니다.이를 위해 코칭, 워크숍, 프로그램 개발 등의 일을 합니다.
+      component : https://images.pexels.com/photos/3861973/pexels-photo-3861973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 김대영
+      date: 2020-11-23
+      identifier: 04
+      author: 김대영
+      creator: 해외네트워크 청소년 감정지능 변신적코칭
+      url :   
+
+    - category : category
+      title : 팀두루미
+      description : 팀두루미는 시민사회영역과 IT 개발 영역에서 10년 이상의 경력을 가진 구성원을 중심으로 구성된 개발팀입니다. 정형화된 웹 개발이 아니라 ‘문제 중심/이슈 중심의 웹 개발’을 표방하며 개발을 통해 파트너의 문제를 해결합니다. 개발 업무를 부풀리거나 시간을 많이 들이지 않고 문제를 해결할 수 있는 방법을 찾습니다. 팀두루미는 개발뿐만 아니라 개발 컨설팅과 디지털 이슈 관련 컨설팅 및 교육을 함께 진행하고 있습니다.
+      component : https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 한운장, 홍영택, 이용선
+      date: 2019-11-01
+      identifier: 05
+      author: 한운장, 홍영택, 이용선
+      creator: IT 아카이브구축 웹개발컨설팅
+      url : https://archives.durumi.io
+
+    - category : category
+      title : 젠더연구소they
+      description : 젠더연구소they는 여성학적 관점을 가지고 성교육/성 상담, 그리고 성문화 운동을 하는 전문가들의 모임입니다. 성문화 운동을 하는 사람들의 놀이터가 되는 것을 목표로 하고 있으며, 활동가들이 자신의 성장을 위해 고민을 나누고 성장하는 공간이 되려고 합니다. 사무국과 운영위원단으로 이루어진 젠더연구소they는 각 분야에서 적게는 10년, 많게는 20년 가까이 성교육/성 상담/성문화 활동을 활발히 한 전문가들이 함께합니다.
+      component : https://images.pexels.com/photos/5721337/pexels-photo-5721337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 
+      date: 2020-11-23
+      identifier: 06
+      author: 
+      creator: 성교육 성인지감수성 성문화활동가네트워크
+      url :                                
+
+    - category : category
+      title : 서커스아트컴퍼니모빌
+      description : 서커스아트컴퍼니 모빌은 에어리얼 서커스를 메인으로 공연 활동을 하는 서커스 아트 컴퍼니입니다. 서커스의 다양한 기술을 접목한 작업을 통하여 깊이와 이유가 있는 움직임으로 관객과 소통하며, 한국적인 요소를 서커스 공연에 담고자 합니다.
+      component : https://images.pexels.com/photos/3640558/pexels-photo-3640558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 김주영
+      date: 2020-11-23
+      identifier: 07
+      author: 김주영
+      creator: 서커스 문화예술공연 서커스교육
+      url :    
+
+
+    - category : category
+      title : 지에프코퍼레이션(안전이별TF)
+      description : 지에프코퍼레이션이 운영하는 ‘안전이별TF’는 폭력 상황에 노출되어 피해를 보는 여성들을 보호하고, 위험 상황 이후의 문제까지 해결할 수 있도록 하는 여성 신변보호 전문TF입니다. 경호/신변보호 업계에서 쌓은 노하우를 바탕으로 여성들이 안전하게 생활할 수 있도록 돕고 있습니다.반영환 대표를 중심으로 경호/신변 보호 업계에서 오랫동안 일한 베테랑 조력자들과 함께하고 있습니다. 안전 이별을 주제로 신변 보호 서비스를 제공하는 업체는 지에프코퍼레이션이 유일합니다.
+      component : https://images.pexels.com/photos/3518091/pexels-photo-3518091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 반영환
+      date: 2020-11-23
+      identifier: 08
+      author: 반영환
+      creator: 안전이별 여성보호 신변보호
+      url : http://gfcorp.co.kr
+
+    - category : category
+      title : 사업운영위탁 및 비영리기관운영컨설팅
+      description : 더블유타이협동조합은 단위사업을 통째로 계약해 해당 사업을 관리/운영하는 과업을 수행합니다. 조합의 사무국 이사진이 주축이 되어 자체 운영이 어려운 기관과 협력하여 성공적인 결과를 위해 노력합니다. 가치 지향적 소명을 가지고 비영리기관 업무 경험을 가진 구성원들이 사업의 성격을 이해하고 윤리적으로 사업을 운영합니다.
+      component : https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 
+      date: 2020-11-23
+      identifier: 09
+      author: 
+      creator: 운영위탁
+      url : 
+
+    - category : category
+      title : 프로그램&콘텐츠 개발 및 운영
+      description : 더블유타이협동조합은 워크숍 기획이나 프로그램 개발이 필요한 중간지원조직이나 기업과 협력합니다. 파트너의 요청에 맞추어 고유한 프로그램을 기획하고, 직접 프로그램을 운영하거나 적절한 외부 인력을 섭외하여 프로그램이 제대로 효과를 발휘할 수 있도록 합니다. 조합의 생산자 조합원 중 절반이 중간지원조직 경력을 가지고 있고, 절반은 민간 기업을 대상으로 한 교육 및 프로그램 운영 노하우를 가지고 있어 고객의 욕구를 빠르게 알아차리고 적절한 프로그램을 빠르게 기획할 수 있는 강점을 가지고 있습니다.
+      component : https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      author: 
+      date: 2020-11-23
+      identifier: 10
+      author: 
+      creator: 프로그램 개발 콘텐츠 개발
+      url :                             
+############################ hero-right/left ##########################
+heroRight:
+  enable : true
+  title : 더 나은 기회를 만드는 생산자들의 조합
+  subtitle : 더블유타이협동조합
+  content : 연구,개발,강연,프로그램기획,공연,운영등 자기전문성을 가진 조직들이 모여 협업의 효과를 극대화하고 좀 더 합리적인 방식으로 일하기 위해 만들어진 생산자 협동조합입니다. 느슨하게 연결되어 각 조합원이 원하는 일하기의 방식을 유지하면서도 개인들이 고립되지 않고 일할 수 있는 구조를 만듭니다.
+  image : img/cover.png
+  # button
+  buttonOne:
+    enable : true
+    label : 소개서 다운로드
+    url : https://w-tiecoop.co.kr/w-tiecoop_introductions.pdf
+  buttonTwo:
+    enable : true
+    label : hello@w-tiecoop.co.kr
+    url : mailto:hello@w-tiecoop.co.kr
+
+
+############################ two box ##########################
+twobox:
+  title : 2box 설명
+  firstBox:
+    - title : Free 버전
+      content : 연구,개발,강연,프로그램기획,공연,운영등 자기전문성을 가진 조직들이 모여 협업의 효과를 극대화하고 좀 더 합리적인 방식으로 일하기 위해 만들어진 생산자 협동조합입니다. 느슨하게 연결되어 각 조합원이 원하는 일하기의 방식을 유지하면서도 개인들이 고립되지 않고 일할 수 있는 구조를 만듭니다.
+      urlLabel : 더 알아보기
+      url : mailto:hello@w-tiecoop.co.kr
+
+  secondBox:
+    - title : Custom 버전
+      content : 연구,개발,강연,프로그램기획,공연,운영등 자기전문성을 가진 조직들이 모여 협업의 효과를 극대화하고 좀 더 합리적인 방식으로 일하기 위해 만들어진 생산자 협동조합입니다. 느슨하게 연결되어 각 조합원이 원하는 일하기의 방식을 유지하면서도 개인들이 고립되지 않고 일할 수 있는 구조를 만듭니다.
+      urlLabel : 더 알아보기
+      url : mailto:hello@w-tiecoop.co.kr
+
+
+############################ FAQ ##########################
+faq:
+  title : 업무 프로세스
+  enable : true
+  content : 더블유타이협동조합이 일하는 과정
+  url : mailto:hello@w-tiecoop.co.kr
+  listItem:
+
+    - question : 1.과업의뢰
+      answer : 파트너기관에서 과업의뢰
+
+    - question : 2.협업 조직 선정
+      answer : 조합 이사진이 과업주제 필터링을 통해전문성을 발휘할수있는 조합원매칭
+
+    - question : 3.사전미팅
+      answer : 조합 사무국과 과업의뢰파트너, 선정된 조합원 3자미팅, 파트너의구체적인 욕구파악및 사무국 협업 영역 합의
+
+    - question : 4.과업과정설계
+      answer : 초기기획부터 공동개발가능, 과정제안을 통해 더 나은 결과물 도출을 위한 노력
+
+    - question : 5.실행 
+      answer : 조합원들과 사무국의 협업을 통해 원활히 과정 실행
+
+    - question : 6.마무리
+      answer : 과업과 사업 실행 마무리, 행정지원 및 운영 
+
+####################### call to actions #####################
+
+cta:
+  enable : true
+  category : 프로젝트 의뢰
+  title : 더블유타이협동조합과 함께 하고 싶은 일이 생각나셨나요?
+  content : 주제가 구체화 되지 않았어도, 방법론이 선명하지 않아도, 연락주세요. 더블유타이협동조합의 전문가들이 기초부터 함께 고민하고, 더 나은 기회를 만들어 갑니다.
+
+  button:
+    enable : true
+    label : 이메일로 프로젝트 의뢰하기
+    url : mailto:hello@w-tiecoop.co.kr
+
+####################### contact #####################
+
+contact:
+  enable : true
+  category : 수집
+  title : 함께 참여해서 아이템을 수집하세요. !
+  content : 디지털 아카이브에서 사용하는 기본 파일을 드래그해서 드롭하세요. 목록이 조사된 엑셀 파일이나, CSV 파일을 업로드하셔도 됩니다.
