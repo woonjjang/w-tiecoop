@@ -13,15 +13,3 @@ writeStats = true
 
 [params]
 	homeText = "you just made W-tie coop homepage"
-
-[menu]
-
-  [[menu.main]]
-  name = "홈"
-  URL = "/"
-  weight = 1
-
-  [[menu.main]]
-  name = "블로그"
-  URL = "/posts"
-  weight = 2
