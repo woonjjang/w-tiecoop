@@ -2,7 +2,8 @@
 title: "First Memo"
 description: "First Memo-blog"
 date: 2020-07-10T19:22:17+09:00
-draft: false
+tag: ["poetry", "trees", "memo"]
+draft: true
 ---
 
 If you can keep your head when all about you  
