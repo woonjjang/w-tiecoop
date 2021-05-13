@@ -206,7 +206,7 @@ heroRight:
   # button
   buttonOne:
     enable : true
-    label : 협동조합 소개서 다운로드
+    label : 소개서 다운로드
     url : https://w-tiecoop.co.kr/w-tiecoop_introductions.pdf
   buttonTwo:
     enable : true
