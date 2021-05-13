@@ -128,7 +128,7 @@ featuredItems:
       date: 2020-11-23
       identifier: 04
       author: 김대영
-      creator: 해외네트워크 청소년 감정지능 변신적코칭
+      creator: 해외네트워크,청소년,감정지능,변신적코칭
       url :   
 
     - category : category
@@ -139,7 +139,7 @@ featuredItems:
       date: 2019-11-01
       identifier: 05
       author: 한운장, 홍영택, 이용선
-      creator: IT 아카이브구축 웹개발컨설팅
+      creator: IT, 아카이브구축, 웹개발컨설팅
       url : https://archives.durumi.io
 
     - category : category
@@ -150,7 +150,7 @@ featuredItems:
       date: 2020-11-23
       identifier: 06
       author: 
-      creator: 성교육 성인지감수성 성문화활동가네트워크
+      creator: 성교육, 성인지감수성, 성문화활동가네트워크
       url :                                
 
     - category : category
@@ -161,13 +161,13 @@ featuredItems:
       date: 2020-11-23
       identifier: 07
       author: 김주영
-      creator: 서커스 문화예술공연 서커스교육
+      creator: 서커스, 문화예술공연, 서커스교육
       url : 
 
     - category : category
       title : 지에프코퍼레이션(안전이별TF)
       description : 지에프코퍼레이션이 운영하는 ‘안전이별TF’는 폭력 상황에 노출되어 피해를 보는 여성들을 보호하고, 위험 상황 이후의 문제까지 해결할 수 있도록 하는 여성 신변보호 전문TF입니다. 경호/신변보호 업계에서 쌓은 노하우를 바탕으로 여성들이 안전하게 생활할 수 있도록 돕고 있습니다.반영환 대표를 중심으로 경호/신변 보호 업계에서 오랫동안 일한 베테랑 조력자들과 함께하고 있습니다. 안전 이별을 주제로 신변 보호 서비스를 제공하는 업체는 지에프코퍼레이션이 유일합니다.
-      component : https://images.pexels.com/photos/3518091/pexels-photo-3518091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      component : https://images.pexels.com/photos/4061421/pexels-photo-4061421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
       author: 반영환
       date: 2020-11-23
       identifier: 08
@@ -195,7 +195,8 @@ featuredItems:
       identifier: 10
       author: 
       creator: 프로그램 개발 콘텐츠 개발
-      url :                             
+      url :
+
 ############################ hero-right/left ##########################
 heroRight:
   enable : true
