@@ -172,8 +172,19 @@ featuredItems:
       date: 2020-11-23
       identifier: 08
       author: 반영환
-      creator: 안전이별 여성보호 신변보호
+      creator: 안전이별, 신변보호
       url : http://gfcorp.co.kr
+
+    - category : category
+      title : 아키위키
+      description : 아키위키는 공동체가 아카이빙 하는 과정을 연구하고 안내하는 기록학 전공자들의 모임입니다. 잊혀지기 쉬운 작은 공동체의 기록이 보다 효과적으로 아카이빙 될 때, 비로소 아카이브가 사회적 정의를 실천할 수 있는 공간이 될 수 있습니다. 아키위키는 작은 아카이브를 쉽게 구축하고 지속 할 수 있는 방안을 고민하고 연구하면서, 작지만 스스로 기록-정보를 관리하고자 하는 공동체들의 아카이빙 컨설팅 및 활동을 지원합니다.
+      component : img/archiwiki.jpeg
+      author: 
+      date: 2021-05-14
+      identifier: 09
+      author: 
+      creator: 공동체 아카이브, 아키비스트, 아카이빙 컨설팅, 기록관리컨설팅
+      url : https://www.notion.so/archiwiki/4255c5c6131240eda0e2da9e51001f27      
 
     - category : category
       title : 사업운영위탁 및 비영리기관운영컨설팅
@@ -181,7 +192,7 @@ featuredItems:
       component : https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
       author: 
       date: 2020-11-23
-      identifier: 09
+      identifier: 10
       author: 
       creator: 운영위탁
       url : 
@@ -192,9 +203,9 @@ featuredItems:
       component : https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
       author: 
       date: 2020-11-23
-      identifier: 10
+      identifier: 11
       author: 
-      creator: 프로그램 개발 콘텐츠 개발
+      creator: 프로그램 개발, 콘텐츠 개발
       url :
 
 ############################ hero-right/left ##########################
