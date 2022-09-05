@@ -11,4 +11,8 @@
 
 ## Netflify 정책 변경으로
 - https://github.com/woonjjang 으로 소스 이동
-- 개인 레포지토리로 hugo build(TCG Netlify)
+- 개인 레포지토리로 이동 후 hugo build(TCG Netlify) / netlify 정책 변경
+
+## 협동조합구성원이 계약을 한다.
+- 관련된 연계 사업을 진행하고 나서, 해당 private 경로에 들어와서 계약서를 남겨준다면 별도의 관리가 줄어들 수 있음. 
+- 운영 주체가 R2같은 서비스 접근은 GUI 툴이 있어야 쉽게 사용 가능함.
