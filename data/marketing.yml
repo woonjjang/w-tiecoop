@@ -9,15 +9,17 @@ user:
   email : hello@w-tiecoop.co.kr
   representative: 김영주
   location : Somewhere in Seoul
+  business_registration : "https://public.w-tiecoop.co.kr/business/더블유타이협동조합 사업자등록증.pdf"
+  business_account : https://public.w-tiecoop.co.kr/business/통장사본_더블유타이협동조합.pdf
   footer :
     대표전화 : 02-0000-0000
     팩스 : 02-0000-0000
     주소 : Somewhere in Seoul
     이메일 : hello@w-tiecoop.co.kr
     대표자 : 김영주
-    year : "2021"
-    github : https://w-tiecoop.co.kr/w-tiecoop_introductions.pdf
-    url : https://w-tiecoop.co.kr/w-tiecoop_introductions.pdf
+    year : "2022"
+    github : https://public.w-tiecoop.co.kr/business/더블유타이협동조합_안내서.pdf
+    url : https://public.w-tiecoop.co.kr/business/더블유타이협동조합_안내서.pdf
     caption:  협동조합 소개서 보기
     fb : http://facebook.com
     tw : http://twitter.com
@@ -121,15 +123,15 @@ featuredItems:
       url : 
 
     - category : category
-      title : I.M.I
-      description : I.M.I는 미래를 직접 디자인하려는 이노베이터들을 발굴하고 성장을 돕는 조직입니다. “모두를 위한 포용적인 사회”를 만들고자 하는 이노베이터들이 네트워크를 형성하고 세상을 위한 일을 함께 할 수 있도록 하는 플랫폼이 되고 있습니다.이를 위해 코칭, 워크숍, 프로그램 개발 등의 일을 합니다.
+      title : TCG
+      description : Text Consulting Group 은 지역을 기반으로, 다양한 연구, 텍스트, 디지털 프로젝트 ISP, 디지털 전환 프로젝트를 수행합니다. 지역을 기반으로 비지니스를 진행하기에, 멀리서 온 이들을 위한 공간 사업도 함께 진행하고 있습니다. 
       component : https://images.pexels.com/photos/3861973/pexels-photo-3861973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-      author: 김대영
-      date: 2020-11-23
+      author: 한운장
+      date: 2022-09-05
       identifier: 04
-      author: 김대영
-      creator: 해외네트워크,청소년,감정지능,변신적코칭
-      url :   
+      author: 한운장
+      creator: 디지털 리터러시, 청소년, 디지털컨설팅, 에어비앤비
+      url : https://t.textconsulting.io/
 
     - category : category
       title : 팀두루미
@@ -140,7 +142,7 @@ featuredItems:
       identifier: 05
       author: 한운장, 홍영택, 이용선
       creator: IT, 아카이브구축, 웹개발컨설팅
-      url : https://archives.durumi.io
+      url : https://durumi.io
 
     - category : category
       title : 젠더연구소they
@@ -214,12 +216,12 @@ heroRight:
   title : 더 나은 기회를 만드는 생산자들의 조합
   subtitle : 더블유타이협동조합
   content : 연구,개발,강연,프로그램기획,공연,운영등 자기전문성을 가진 조직들이 모여 협업의 효과를 극대화하고 좀 더 합리적인 방식으로 일하기 위해 만들어진 생산자 협동조합입니다. 느슨하게 연결되어 각 조합원이 원하는 일하기의 방식을 유지하면서도 개인들이 고립되지 않고 일할 수 있는 구조를 만듭니다.
-  image : img/cover.png
+  image : https://public.w-tiecoop.co.kr/business/cover.png
   # button
   buttonOne:
     enable : true
     label : 소개서 다운로드
-    url : https://w-tiecoop.co.kr/w-tiecoop_introductions.pdf
+    url : https://public.w-tiecoop.co.kr/business/더블유타이협동조합_안내서.pdf
   buttonTwo:
     enable : true
     label : hello@w-tiecoop.co.kr
@@ -250,11 +252,11 @@ faq:
   url : mailto:hello@w-tiecoop.co.kr
   listItem:
 
-    - question : 1.과업의뢰
-      answer : 파트너기관에서 과업의뢰
+    - question : 1.과업의뢰 및 조정
+      answer : 파트너기관에서 과업의뢰를 받고, 관려된 업무를 협동조합에 어울리는 구성원인지 확인하는 과정을 거칩니다. 편하게 메일 주세요. 그 전에 소개서를 꼭 읽어보세요. 
 
     - question : 2.협업 조직 선정
-      answer : 조합 이사진이 과업주제 필터링을 통해전문성을 발휘할수있는 조합원매칭
+      answer : 조합 이사진이 과업주제 필터링을 통해전문성을 발휘할수있는 조합원 개인, 법인을 매칭합니다.
 
     - question : 3.사전미팅
       answer : 조합 사무국과 과업의뢰파트너, 선정된 조합원 3자미팅, 파트너의구체적인 욕구파악및 사무국 협업 영역 합의
