@@ -9,8 +9,8 @@ user:
   email : hello@w-tiecoop.co.kr
   representative: 김영주
   location : Somewhere in Seoul
-  business_registration : "https://public.w-tiecoop.co.kr/business/더블유타이협동조합 사업자등록증.pdf"
-  business_account : https://public.w-tiecoop.co.kr/business/통장사본_더블유타이협동조합.pdf
+  business_registration : 
+  business_account : 
   footer :
     대표전화 : 02-0000-0000
     팩스 : 02-0000-0000
@@ -18,8 +18,8 @@ user:
     이메일 : hello@w-tiecoop.co.kr
     대표자 : 김영주
     year : "2022"
-    github : https://public.w-tiecoop.co.kr/business/더블유타이협동조합_안내서.pdf
-    url : https://public.w-tiecoop.co.kr/business/더블유타이협동조합_안내서.pdf
+    github : https://r2.textconsulting.io/wtie/w-tiecoop_introductions.pdf
+    url : https://r2.textconsulting.io/wtie/w-tiecoop_introductions.pdf
     caption:  협동조합 소개서 보기
     fb : http://facebook.com
     tw : http://twitter.com
@@ -180,7 +180,7 @@ featuredItems:
     - category : category
       title : 아키위키
       description : 아키위키는 공동체가 아카이빙 하는 과정을 연구하고 안내하는 기록학 전공자들의 모임입니다. 잊혀지기 쉬운 작은 공동체의 기록이 보다 효과적으로 아카이빙 될 때, 비로소 아카이브가 사회적 정의를 실천할 수 있는 공간이 될 수 있습니다. 아키위키는 작은 아카이브를 쉽게 구축하고 지속 할 수 있는 방안을 고민하고 연구하면서, 작지만 스스로 기록-정보를 관리하고자 하는 공동체들의 아카이빙 컨설팅 및 활동을 지원합니다.
-      component : img/archiwiki.jpeg
+      component : https://r2.textconsulting.io/wtie/archiwiki.jpeg
       author: 
       date: 2021-05-14
       identifier: 09
@@ -216,12 +216,12 @@ heroRight:
   title : 더 나은 기회를 만드는 생산자들의 조합
   subtitle : 더블유타이협동조합
   content : 연구,개발,강연,프로그램기획,공연,운영등 자기전문성을 가진 조직들이 모여 협업의 효과를 극대화하고 좀 더 합리적인 방식으로 일하기 위해 만들어진 생산자 협동조합입니다. 느슨하게 연결되어 각 조합원이 원하는 일하기의 방식을 유지하면서도 개인들이 고립되지 않고 일할 수 있는 구조를 만듭니다.
-  image : https://public.w-tiecoop.co.kr/business/cover.png
+  image : https://r2.textconsulting.io/wtie/cover.png
   # button
   buttonOne:
     enable : true
     label : 소개서 다운로드
-    url : https://public.w-tiecoop.co.kr/business/더블유타이협동조합_안내서.pdf
+    url : https://r2.textconsulting.io/wtie/w-tiecoop_introductions.pdf
   buttonTwo:
     enable : true
     label : hello@w-tiecoop.co.kr
